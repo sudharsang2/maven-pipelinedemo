@@ -4,6 +4,11 @@
   <artifactId>TestNgDemo12</artifactId>
   <version>0.0.1-SNAPSHOT</version>
 	 <dependencies>
+		 <dependency>
+   <groupId>org.apache.maven</groupId>
+   <artifactId>maven-settings</artifactId>
+   <version>3.2.5</version>
+</dependency>
   <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
 <dependency>
     <groupId>org.seleniumhq.selenium</groupId>
