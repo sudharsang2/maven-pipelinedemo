@@ -3,7 +3,6 @@
   <groupId>com.Sample</groupId>
   <artifactId>TestNgDemo12</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-	
   <dependencies>
   <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
 <dependency>
