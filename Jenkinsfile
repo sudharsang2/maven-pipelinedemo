@@ -8,7 +8,7 @@ pipeline{
       steps{
         git branch: 'master',
         credentialsId: 'Git-lab-cred',
-        url: ''
+        url: 'https://github.com/sudharsang2/maven-pipelinedemo.git'
       }
     }
     stage('Compile and Clean'){
