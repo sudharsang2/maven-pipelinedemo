@@ -1,13 +1,13 @@
 pipeline{
   agent any
   tools{
-    maven 'M2_HOME'
+    maven 'Maven_Home'
   }
   stages{
     stage('git clone'){
       steps{
         git branch: 'master',
-        credentialsId: 'Git-lab-cred',
+        credentialsId: 'git-hub-cred',
         url: 'https://github.com/sudharsang2/maven-pipelinedemo.git'
       }
     }
